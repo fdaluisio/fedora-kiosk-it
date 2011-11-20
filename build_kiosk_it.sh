@@ -31,6 +31,11 @@ if [ ! -d ${CACHEDIR} ]; then
         mkdir ${CACHEDIR}
 fi
 
+if [ ! selinuxenabled ]; then
+	echo "Enabled SELinux is required"
+	exit -2
+fi
+
 if [ -x /usr/bin/livecd-creator ]; then
 	echo "Require root password"
 	su -c "nohup setarch i686 /usr/bin/livecd-creator -t ${TMPDIR} -f ${KIOSKNAME} -c ${KSFILE} --cache=${CACHEDIR} > ${KIOSKNAME}-`date +%d%M%Y`.log"
