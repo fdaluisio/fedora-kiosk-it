@@ -3,3 +3,5 @@ fedora
 tmp
 updates
 *log
+*iso
+selinux
