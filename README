@@ -3,7 +3,7 @@ La base di questo progetto è lo splendido lavoro fatto da Dan Walsh con SELinux
 spin Kiosk.
 
 
-# git clone https://github.com/fdaluisio/fedora-kiosk-it
+# git clone https://fdaluisio@github.com/fdaluisio/fedora-kiosk-it.git
 # cd fedora-kiosk-it
 # ./build_kiosk_it.sh
 
