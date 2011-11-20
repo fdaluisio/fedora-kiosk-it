@@ -1,0 +1,9 @@
+Questo progetto nasce dal tentativo di creare una distribuzione Fedora per una Biblioteca.
+La base di questo progetto è lo splendido lavoro fatto da Dan Walsh con SELinux e la 
+spin Kiosk.
+
+
+# git clone https://github.com/fdaluisio/fedora-kiosk-it
+# cd fedora-kiosk-it
+# ./build_kiosk_it.sh
+
