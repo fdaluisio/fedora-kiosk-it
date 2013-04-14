@@ -7,3 +7,6 @@ spin Kiosk.
 # cd fedora-kiosk-it
 # ./build_kiosk_it.sh
 
+
+Credits:
+Francesco D'Aluisio (fdaluisio@fedoraproject.org)
